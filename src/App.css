@@ -30,12 +30,166 @@
   font-size: 40px;
   color: #3b5998;
 }
+.hsearch{
+  width: 80%;
+  position: relative;
+
+}
+.hbar{
+  width: 100%;
+  padding: 15px 45px;
+  border: none;
+  background-color:#cad4e8 ;
+  border-radius: 30px;
+  outline: none;
+}
 .hcenter{
   width: 50%;
   display: flex;
   padding: 0 70px;
   justify-content: space-between;
 }
-.hlast{
+
+.hicon{
+  position: absolute;
+  left: 20px;
+  top: 13px;
+  color: silver;
+  padding: 0 70px;
+}
+.hicons{
+  font-size: 25px;
+  color: #606770;
 
 }
+.cIcon{
+  display: inline-block;
+  position: relative;
+}
+
+.hnotify{
+  display: flex;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  top: 10px;
+  left: 10px;
+  border-radius:50% ;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: #fff;
+}
+.hlast{
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+.hlastpart{
+  margin: 0 15px;
+  display: flex;
+  width: 45px;
+  height: 45px;
+  background-color: #f0f2f5;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+
+}
+
+.left{
+  width: 35%;
+  position: fixed;
+  top: 90px;
+
+}
+.leftl{
+  display: flex;
+  padding: 10px 30px;
+  align-items: center;
+}
+.leftimg{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.leftimg img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.leftlname{
+  margin-left: 12px;
+  font-weight: bold;
+}
+
+.facebook{
+  display: flex;
+  margin-top: 70px;
+
+}
+.M{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 50px;
+}
+.updates{
+  width: 100%;
+  display: flex;
+
+}
+.updatesc{
+  width: 25%;
+}
+
+.updatesb{
+  height: 250px;
+  padding: 0 10px;
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.updatesb img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.updatesbo{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+
+}
+.updatesbo img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.updatesboimg{
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 20px;
+  border: 3px solid blue;
+}
+
+.updatesboname{
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+
