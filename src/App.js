@@ -3,6 +3,8 @@ import Header from "./Header";
 import Left from "./Left.js";
 import M from "./M";
 import Status from "./Status";
+import Mnews from "./Mnews";
+import Friendslist from "./Friendslist";
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <M />
       </div>
       <Status />
+      <Mnews />
+      <Friendslist />
     </div>
   );
 }
